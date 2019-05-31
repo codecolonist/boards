@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { BlackComponent } from './black/black.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    BlackComponent
   ],
   imports: [
     BrowserModule
